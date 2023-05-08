@@ -29,3 +29,22 @@
         -xsize, -ysize, -zsize, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f,  // Vertex 21
         -xsize, -ysize, -zsize, -1.0f, 0.0f, 0.0f, 0.0f, 0.0f,  // Vertex 22
         -xsize, -ysize, -zsize, 0.0f, -1.0f, 0.0f, 0.0f, 0.0f   // Vertex 23
+        
+        
+        
+         const GLuint index_array_data[] = {
+        0, 3, 6,
+        0, 6, 9,
+        4, 12, 15,
+        4, 15, 7,
+        13, 18, 16,
+        13, 21, 18,
+        22, 10, 19,
+        22, 1, 10,
+        11, 17, 20,
+        11, 8, 17,
+        2, 14, 5,
+        2, 23, 14};
+
+    nverts_ = 24;
+    ntris_ = 12;
